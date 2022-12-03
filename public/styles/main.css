@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+input,
+button {
+    font-family: 'Dank Mono', monospace;
+}
+
+body {
+    background: lightgrey;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 300px;
+}
+
+input[type="file"] {
+    background: gainsboro;
+    padding: 15px 70px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #000300;
+    background: #FFD679;
+    font-size: 14px;
+    cursor: pointer;
+}
